@@ -1,6 +1,27 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.cysharp.unitask"
+      ]
+    },
+    {
+      "name": "npm",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "com.github.asus4"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.github.asus4.tflite": "2.17.0",
+    "com.github.asus4.tflite.common": "2.17.0",
+    "com.cysharp.unitask": "2.5.10",
+    "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.render-pipelines.universal": "14.0.11",
+    "com.unity.test-framework": "1.1.33",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.audio": "1.0.0",
     "com.unity.modules.ui": "1.0.0",
