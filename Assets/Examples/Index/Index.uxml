@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement style="margin: 64px; flex-basis: 100%;">
+        <ui:Label text="Index" />
+        <ui:ListView />
+    </ui:VisualElement>
+</ui:UXML>
