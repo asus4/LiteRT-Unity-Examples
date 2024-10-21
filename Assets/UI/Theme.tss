@@ -1,2 +1,2 @@
 @import url("unity-theme://default");
-@import url("Minimal.uss");
+@import url("Prototype.uss");

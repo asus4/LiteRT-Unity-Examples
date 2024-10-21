@@ -1,6 +1,7 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements">
-    <ui:VisualElement style="margin: 64px; flex-basis: 100%;">
-        <ui:Label text="Index" />
-        <ui:ListView />
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement class="container">
+        <ui:Label text="LiteRT Examples" class="h1" />
+        <ui:ListView name="sceneList" />
+        <PrototypeUI.GoToSceneButton text="Index" scene-name="IndexScene" />
     </ui:VisualElement>
 </ui:UXML>

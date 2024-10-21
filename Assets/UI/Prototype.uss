@@ -1,0 +1,34 @@
+/* 
+Minimalistic style for prototyping.
+*/
+
+VisualElement {
+    color: rgb(255, 255, 255);
+    font-size: 24px;   
+}
+
+.container {
+    margin: 64px;
+    flex-basis: 100%;
+}
+
+.h1 {
+    font-size: 32px;
+    -unity-font-style: bold;
+}
+
+/* Button */
+.prototype-button {
+    background-color: rgba(255, 255, 255, 0.0);
+    -unity-font-style: bold;
+    border-color : rgba(255, 255, 255, 1);
+    border-width: 3px;
+
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out-sine;
+}
+
+.prototype-button:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
