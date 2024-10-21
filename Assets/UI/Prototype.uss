@@ -19,7 +19,7 @@ VisualElement {
 
 /* Button */
 .prototype-button {
-    background-color: rgba(255, 255, 255, 0.0);
+    background-color: rgba(0, 0, 0, 0.0);
     -unity-font-style: bold;
     border-color : rgba(255, 255, 255, 1);
     border-width: 3px;
@@ -30,7 +30,7 @@ VisualElement {
 }
 
 .prototype-button:hover {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .prototype-detection-box {

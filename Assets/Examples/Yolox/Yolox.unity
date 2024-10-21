@@ -685,7 +685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   options:
-    modelPath: yolox_tiny_float32.tflite
+    modelPath: yolox_nano_float32.tflite
     aspectMode: 1
     delegateType: 4
     labelFile: {fileID: 4900000, guid: 9ffac5d66e66b4a2a9022e234585c687, type: 3}
