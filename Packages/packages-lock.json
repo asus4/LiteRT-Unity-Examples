@@ -1,28 +1,28 @@
 {
   "dependencies": {
-    "com.cysharp.unitask": {
-      "version": "2.5.10",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://package.openupm.com"
-    },
-    "com.github.asus4.tflite": {
-      "version": "2.17.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://registry.npmjs.com"
-    },
-    "com.github.asus4.tflite.common": {
-      "version": "2.17.0",
+    "com.github.asus4.texture-source": {
+      "version": "0.3.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.burst": "1.8.12",
-        "com.github.asus4.tflite": "2.17.0"
+        "com.unity.modules.video": "1.0.0"
       },
       "url": "https://registry.npmjs.com"
+    },
+    "com.github.asus4.tflite": {
+      "version": "file:../../tf-lite-unity-sample/Packages/com.github.asus4.tflite",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.github.asus4.tflite.common": {
+      "version": "file:../../tf-lite-unity-sample/Packages/com.github.asus4.tflite.common",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.burst": "1.8.12",
+        "com.github.asus4.tflite": "2.17.0"
+      }
     },
     "com.unity.burst": {
       "version": "1.8.18",

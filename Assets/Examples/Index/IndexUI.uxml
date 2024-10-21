@@ -2,6 +2,6 @@
     <ui:VisualElement class="container">
         <ui:Label text="LiteRT Examples" class="h1" />
         <ui:ListView name="sceneList" />
-        <PrototypeUI.GoToSceneButton text="Index" scene-name="IndexScene" />
+        <PrototypeUI.GoToSceneButton text="Yolox" />
     </ui:VisualElement>
 </ui:UXML>

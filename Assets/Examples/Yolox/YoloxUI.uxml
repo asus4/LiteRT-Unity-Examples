@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Image name="CameraBackground" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+    <ui:VisualElement class="container">
+        <PrototypeUI.GoToSceneButton text="Back to Index" scene-name="Index" />
+    </ui:VisualElement>
+</ui:UXML>

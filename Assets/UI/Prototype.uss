@@ -32,3 +32,9 @@ VisualElement {
 .prototype-button:hover {
   background-color: rgba(255, 255, 255, 0.05);
 }
+
+.prototype-detection-box {
+    color: rgba(0, 255, 0, 1);
+    border-color: rgba(0, 255, 0, 1);
+    border-width: 3px;
+}

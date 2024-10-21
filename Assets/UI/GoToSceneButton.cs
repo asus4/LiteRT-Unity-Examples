@@ -23,8 +23,10 @@ namespace PrototypeUI
 
         private void GoToScene()
         {
-            Debug.Log($"Loading scene {SceneName}");
-            SceneManager.LoadScene(SceneName);
+            string sceneName = string.IsNullOrEmpty(SceneName)
+                ? text
+                : SceneName;
+            SceneManager.LoadScene(sceneName);
         }
     }
 }
