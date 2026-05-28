@@ -10,19 +10,19 @@
       "url": "https://registry.npmjs.com"
     },
     "com.github.asus4.tflite": {
-      "version": "2.21.0-rc0",
+      "version": "2.21.0-rc1",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.com"
     },
     "com.github.asus4.tflite.common": {
-      "version": "2.21.0-rc0",
+      "version": "2.21.0-rc1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.27",
-        "com.github.asus4.tflite": "2.21.0-rc0"
+        "com.github.asus4.tflite": "2.21.0-rc1"
       },
       "url": "https://registry.npmjs.com"
     },
